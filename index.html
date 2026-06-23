@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library RPG</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+
+        <h1>Library Archives</h1>
+
+        <div id="loadingBar">
+            <div id="loadingProgress"></div>
+        </div>
+
+    </div>
+
+    <!-- GAME -->
+    <div id="gameContainer">
+        <div id="camera">
+            <div id="world">
+                <div class="room books-room"></div>
+
+                <div class="room borrow-room"></div>
+
+                <div class="room security-room"></div>
+
+                <div class="room catalog-room"></div>
+
+                <div class="room staff-room"></div>
+
+                <div class="room archive-room"></div>
+            </div>
+
+            <div id="player"></div>
+        </div>
+    </div>
+    <div id="dayDisplay">
+        Day 1
+    </div>
+
+    <div id="dayEndScreen">
+        <div id="dayEndText">Day 1 Complete</div>
+    </div>
+    <div id="prompt">Press E</div>
+    <div id="dialogueHint">
+        Press SPACE
+    </div>
+    <div id="dialogueBox">
+
+        <div id="dialogueHeader">
+            Library Archives
+            <button id="closeDialogue">✕</button>
+        </div>
+
+        <div id="dialogueContent"></div>
+
+    </div>
+    <div id="inventoryBox"></div>
+    <div id="corruptionOverlay"></div>
+
+    <script src="js/game.js"></script>
+
+</body>
+
+</html>
