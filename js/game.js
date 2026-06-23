@@ -169,7 +169,7 @@ const rooms = [
     {
         id: "books",
         x: 580,
-        y: 390,
+        y: 300,
         w: 300,
         h: 200,
 
@@ -196,7 +196,7 @@ const rooms = [
     {
         id: "borrow",
         x: 1400,
-        y: 390,
+        y: 350,
         w: 300,
         h: 200,
 
@@ -212,7 +212,7 @@ const rooms = [
     {
         id: "security",
         x: 2200,
-        y: 390,
+        y: 380,
         w: 300,
         h: 200,
 
